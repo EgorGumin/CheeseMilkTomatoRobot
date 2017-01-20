@@ -92,7 +92,7 @@ def train():
         validation_data=validation_generator,
         nb_val_samples=num_valid)
 
-    model.save("model_3classes_aug.h5")
+    model.save("3classes_with_augmentation.h5")
 
 print('Started: ' + str(datetime.datetime.now()))
 train()
