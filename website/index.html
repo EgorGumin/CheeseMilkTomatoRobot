@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title>#CheeseMilkTomatoRobot</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+</style>
+
+<body>
+<!-- Top menu -->
+<div class="w3-top">
+    <div class="w3-white w3-xlarge w3-padding-xlarge" style="max-width:1200px;margin:auto">
+        <div class="w3-center">#CheeseMilkTomatoRobot</div>
+    </div>
+</div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:60px">
+
+    <div class="w3-container w3-center">
+        <h3>What is it?</h3>
+        <h4>Extremely powerful neural net! It can identify 3 classes of images: cheese, milk and tomatoes! Sounds amazing, right?</h4>
+        <hr>
+        <h3>Try it yourself!</h3>
+        Post the link into the field below (we support only jpg/jpeg images with .jpg ending):
+        <br>
+    </div>
+
+    <form class="w3-form w3-center" action="/predict" method="post">
+        <input class="w3-input-group" type="text" name="link" style="min-width: 50%">
+        <input class="w3-btn" type="submit" value="Guess!">
+    </form>
+
+    {prediction}
+
+    {photos}
+
+  <!-- About Section -->
+    <div class="w3-container w3-center">
+        <h3>Who and why?</h3>
+
+        <h4>Who? Egor Gumin, Vladislav Evtushenko, Alex Scherbakhov.</h4>
+        <h4>Why? We just wanna have fun, you know.</h4>
+        <h4>
+            <a href="https://github.com/GuminEgor/CheeseMilkTomatoRobot" title="Project on GitHub">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Good old rickroll"> How we did it</a>
+        </h4>
+    </div>
+
+</div>
+</body>
+</html>
